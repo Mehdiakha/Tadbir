@@ -25,9 +25,9 @@ async def get_db():
 @app.post("/users/")
 async def create_user(db: AsyncSession = Depends(get_db)):
     new_user = models.User(
-        username="mehdi",
-        email="mehdi@example.com",
-        hashed_password=hash_password("your_plain_password")
+        username="alice",
+        email="alice@example.com",
+        hashed_password=hash_password("alice123")
     )
     db.add(new_user)
     await db.commit()
