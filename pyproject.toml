@@ -1,0 +1,15 @@
+[project]
+name = "tadbir"
+version = "0.1.0"
+description = "Your own financial Tracker & Assistant"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "fastapi[standard]>=0.115.12",
+    "passlib[bcrypt]>=1.7.4",
+    "pydantic>=2.11.5",
+    "python-dotenv>=1.1.0",
+    "sqlalchemy>=2.0.41",
+    "uvicorn[standard]>=0.34.3",
+]
