@@ -16,10 +16,4 @@ A smart serverless budget and smart finance tracker, built with FastAPI, Postgre
 
     Planned: AI/ML-powered smart insights and chat assistant
 
-Requirements
 
-    Python 3.10+
-
-    PostgreSQL-compatible database (NeonDB recommended)
-
-    pip packages in requirements.txt (FastAPI, SQLAlchemy, asyncpg, passlib, python-dotenv, uvicorn)
